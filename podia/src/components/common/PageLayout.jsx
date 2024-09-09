@@ -1,11 +1,10 @@
-const Layout = (props) => {
+const PageLayout = (props) => {
     const { children } = props;
-  
     return (
       <div
         style={{
-          padding: "0 4em",
-          margin: "auto",
+          width: "100%",
+          height: "100%",
         }}
       >
         {children}
@@ -13,4 +12,4 @@ const Layout = (props) => {
     );
   };
   
-  export default Layout;
+  export default PageLayout;
